@@ -1,13 +1,13 @@
 import { initializeApp } from "firebase/app";
 import { getAuth, signInWithEmailAndPassword, createUserWithEmailAndPassword, signOut } from "firebase/auth";
 const firebaseConfig = {
-  apiKey: "AIzaSyB_oPpc8NribiPWhkNnp0OmSbUdUZDSsqM",
-  authDomain: "database-auth1.firebaseapp.com",
-  projectId: "database-auth1",
-  storageBucket: "database-auth1.firebasestorage.app",
-  messagingSenderId: "967994032282",
-  appId: "1:967994032282:web:ca03355a425c6bf8841f23"
-};
+    apiKey: "AIzaSyB0JT1YaC6vxMWu2-EDqIUR7V7Td2R6bZU",
+    authDomain: "bikalol-73db8.firebaseapp.com",
+    projectId: "bikalol-73db8",
+    storageBucket: "bikalol-73db8.firebasestorage.app",
+    messagingSenderId: "496960355401",
+    appId: "1:496960355401:web:31644561a66c8832205398"
+  };
 const app = initializeApp(firebaseConfig);
 // Initialize Firebase
 export const auth = getAuth(app);
